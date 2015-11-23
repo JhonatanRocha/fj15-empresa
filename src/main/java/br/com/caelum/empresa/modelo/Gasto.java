@@ -25,6 +25,15 @@ public class Gasto {
 	}
 	
 	public Gasto(double valor, String tipo, Funcionario funcionario,
+			Calendar data) {
+
+		this.valor = valor;
+		this.tipo = tipo;
+		this.funcionario = funcionario;
+		this.data = data;
+	}
+	
+	public Gasto(double valor, String tipo, Funcionario funcionario,
 			Calendar data, Boolean pagoEmDinheiro) {
 
 		this.valor = valor;
