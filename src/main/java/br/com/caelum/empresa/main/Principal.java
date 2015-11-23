@@ -1,4 +1,4 @@
-package br.com.caelum.empresa;
+package br.com.caelum.empresa.main;
 
 import java.util.Calendar;
 import java.util.GregorianCalendar;
